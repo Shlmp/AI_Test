@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e2ab9661204e204db4991d778f574c4, type: 3}
+  m_Name: WanderAI
+  m_EditorClassIdentifier: 
+  transitions:
+  - condition: {fileID: 11400000, guid: 6b7f8fc163fe42b418ac059b79295b35, type: 2}
+    state: {fileID: 11400000, guid: 0a84ca04cf7e1c7479de0a843c7f3fd9, type: 2}
+  moveSpeed: 2
+  pointThreshold: 0.5

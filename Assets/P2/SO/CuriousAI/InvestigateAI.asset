@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93d35156edf4d741ab045bd03097d34, type: 3}
+  m_Name: InvestigateAI
+  m_EditorClassIdentifier: 
+  transitions:
+  - condition: {fileID: 11400000, guid: 60c2435b68b73ac4aab5230c1ca35e79, type: 2}
+    state: {fileID: 11400000, guid: 18ae4889b3003b54199ee3f192b3aaeb, type: 2}
+  - condition: {fileID: 11400000, guid: c511961beaa22c34b8b20a78a20adf58, type: 2}
+    state: {fileID: 11400000, guid: 783f11793c4c81841a72b50be559716f, type: 2}
+  moveSpeed: 3
+  stopDistance: 1.5
