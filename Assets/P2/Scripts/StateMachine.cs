@@ -5,10 +5,13 @@ public class StateMachine : MonoBehaviour
     public State initialState;
     public State currentState;
 
+    public Blackboard blackboard = new Blackboard();
+
     public FSMContext context = new FSMContext();
 
     private void Start()
     {
+        blackboard.Set("Player", GameObject.FindGameObjectWithTag("Player"));
         ChangeState(initialState);
     }
 
